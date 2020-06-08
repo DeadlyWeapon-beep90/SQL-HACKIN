@@ -17,9 +17,3 @@ pip install -r requirements.txt :::::::
 python3 SQLi.py
 
 
-FOR LINUX MWMBERS :
-
-git clone https://github.com/DeadlyWeapon-beep90/SQL-HACKIN.git ::::::::::
-cd SQL-HACKIN :::::::::
-pip install -r requirements.txt :::::::::::::::::;
-python3 SQLi.py
