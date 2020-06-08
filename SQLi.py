@@ -8,12 +8,12 @@ print('''\033[1;34m_
 ⠀⠀⠀⠈⠿⣿⣇⣠⠤⠤⠤⢤⣀⣤⠤⠤⣺⡏
 ⠀⠀⠀⠀⠐⢉⣯⠹⣀⣀⣢⡸⠉⢏⡄⣀⣯⠁
 ⠀⠀⠀⠀⠡⠀⢹⣆⠀⠀⠀⣀⡀⡰⠀⢠⠖⠂
-⠀⠀⠀⠀⠀⠈⠙⣿⣿⠀⠠⠚⢋⡁⠀⡜
+⠀⠀⠀⠀⠀⠈⠙⣿⣿⠀⠠⠚⢋⡁⠀⡜     "To kaise hain aap log"
 ⠀⠀⠀⠀⠀⠀⢸⠈⠙⠦⣤⣀⣤⣤⡼⠁
 ⠀⠀⠀⠀⠀⢀⡌⠀⠀⠀⠀⠉⢏⡉
 ⠀⠀⠀⣀⣴⣿⣷⣶⣤⣤⣤⣴⣾⣷⣶⣦⡀
 ⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄
-⠚⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠂ "To kaise hain aap log" \033[37mMade with \033[91m<3\033[37m DeadlyWeapon[1;m''')
+⠚⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠂  \033[37mMade with \033[91m<3\033[37m DeadlyWeapon[1;m''')
 q=str(input("\033[1;33;40mEnter your dork: "))
 no=int(input("\033[1;33;40mEnter the number of results you want to search: "))
 times=int(input("\033[1;33;40mEnter the timeout :"))
