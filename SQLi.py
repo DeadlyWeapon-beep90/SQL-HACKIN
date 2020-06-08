@@ -15,7 +15,7 @@ def checkvpn():
   print("")
 def banner():
  os.system("clear")
- os.system("toilet -fmono12 -F gay HACKER BANO CHUITYA NAHI")
+ os.system("toilet -fmono12 -F gay DEAD")
 print('''\033[1;34m_
 ⠀⠀⠀⢀⣾⣿⣿⣿⠿⠿⠟⠻⠿⢿⣿⣿⣿⡆
 ⠀⠀⠀⢰⣿⣿⡿⠂⠀⠀⠀⠀⠀⠀⠈⠉⢻⡇ ⠀⠀⠀⠀⠀
