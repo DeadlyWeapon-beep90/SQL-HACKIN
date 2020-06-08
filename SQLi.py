@@ -1,21 +1,7 @@
-from search_google import search
+from googlesearch import search
 import time
 import requests
-import os
-os.system("apt install toilet -y")
-def checkvpn():
- c=os.system("ifconfig tun0")
- os.system("clear")
- if(c==0):
-  banner()
-  print("")
- else:
-  banner()
-  print("\033[1;31;40mIt seems that you aren't using vpn which is not recomended")
-  print("")
-def banner():
- os.system("clear")
- os.system("toilet -fmono12 -F gay HACKER--BANO-BANO CHUTIYA NAHI")
+headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0'}
 print('''\033[1;34m_
 ⠀⠀⠀⢀⣾⣿⣿⣿⠿⠿⠟⠻⠿⢿⣿⣿⣿⡆
 ⠀⠀⠀⢰⣿⣿⡿⠂⠀⠀⠀⠀⠀⠀⠈⠉⢻⡇ ⠀⠀⠀⠀⠀
@@ -28,9 +14,6 @@ print('''\033[1;34m_
 ⠀⠀⠀⣀⣴⣿⣷⣶⣤⣤⣤⣴⣾⣷⣶⣦⡀
 ⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄
 ⠚⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠂ "To kaise hain aap log" \033[37mMade with \033[91m<3\033[37m DeadlyWeapon[1;m''')
-banner()
-checkvpn()
-headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0'}
 q=str(input("\033[1;33;40mEnter your dork: "))
 no=int(input("\033[1;33;40mEnter the number of results you want to search: "))
 times=int(input("\033[1;33;40mEnter the timeout :"))
@@ -41,8 +24,6 @@ if(op=="Y" or op=="y"):
  time.sleep(2)
  f=open(name,"a+")
 i=1
-banner()
-checkvpn()
 for url in search(q,tld="com",num=no,stop=no,pause=2):
  if("php?" not in url):
   i=i+1
