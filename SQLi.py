@@ -2,6 +2,7 @@ from googlesearch import search
 import time
 import requests
 headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/85.0'}
+
 print('''\033[1;34m_
 ⠀⠀⠀⢀⣾⣿⣿⣿⠿⠿⠟⠻⠿⢿⣿⣿⣿⡆
 ⠀⠀⠀⢰⣿⣿⡿⠂⠀⠀⠀⠀⠀⠀⠈⠉⢻⡇ ⠀⠀⠀⠀⠀
@@ -14,6 +15,7 @@ print('''\033[1;34m_
 ⠀⠀⠀⣀⣴⣿⣷⣶⣤⣤⣤⣴⣾⣷⣶⣦⡀
 ⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄
 ⠚⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠂  \033[37mMade with \033[91m<3\033[37m DeadlyWeapon[1;m''')
+
 q=str(input("\033[1;33;40mEnter your dork: "))
 no=int(input("\033[1;33;40mEnter the number of results you want to search: "))
 times=int(input("\033[1;33;40mEnter the timeout :"))
