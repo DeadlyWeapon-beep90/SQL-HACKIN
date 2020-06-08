@@ -1,4 +1,4 @@
-from googlesearch import search
+from search_google import search
 import time
 import requests
 import os
@@ -15,7 +15,7 @@ def checkvpn():
   print("")
 def banner():
  os.system("clear")
- os.system("toilet -fmono12 -F gay DEAD")
+ os.system("toilet -fmono12 -F gay HACKER--BANO-BANO CHUTIYA NAHI")
 print('''\033[1;34m_
 ⠀⠀⠀⢀⣾⣿⣿⣿⠿⠿⠟⠻⠿⢿⣿⣿⣿⡆
 ⠀⠀⠀⢰⣿⣿⡿⠂⠀⠀⠀⠀⠀⠀⠈⠉⢻⡇ ⠀⠀⠀⠀⠀
