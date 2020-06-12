@@ -1,7 +1,7 @@
 # import pyfiglet module 
 import pyfiglet
 
-result = pyfiglet.figlet_format("hacker Bano chutiya nahi") 
+result = pyfiglet.figlet_format(" HOCKER") 
 print(result)
 
 from googlesearch import search
