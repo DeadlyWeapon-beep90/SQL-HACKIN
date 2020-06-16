@@ -1,34 +1,13 @@
 # import pyfiglet module 
 import pyfiglet
 
-result = pyfiglet.figlet_format(" HOCKER") 
+result = pyfiglet.figlet_format(" HACKER") 
 print(result)
 
 from googlesearch import search
 import time
 import requests
 headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0'}
-
-banner = """
-{}
-
-
-
-██████╗░███████╗░█████╗░██████╗░██╗░░░░░██╗░░░██╗
-██╔══██╗██╔════╝██╔══██╗██╔══██╗██║░░░░░╚██╗░██╔╝
-██║░░██║█████╗░░███████║██║░░██║██║░░░░░░╚████╔╝░
-██║░░██║██╔══╝░░██╔══██║██║░░██║██║░░░░░░░╚██╔╝░░
-██████╔╝███████╗██║░░██║██████╔╝███████╗░░░██║░░░
-╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░╚══════╝░░░╚═╝░░░
-
-░██╗░░░░░░░██╗███████╗░█████╗░██████╗░░█████╗░███╗░░██╗
-░██║░░██╗░░██║██╔════╝██╔══██╗██╔══██╗██╔══██╗████╗░██║
-░╚██╗████╗██╔╝█████╗░░███████║██████╔╝██║░░██║██╔██╗██║
-░░████╔═████║░██╔══╝░░██╔══██║██╔═══╝░██║░░██║██║╚████║
-░░╚██╔╝░╚██╔╝░███████╗██║░░██║██║░░░░░╚█████╔╝██║░╚███║
-░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░░╚════╝░╚═╝░░╚══╝
-"""
-print(banner.format(settings.green,settings.red,settings.green,settings.red,settings.green,settings.red,settings.green))
 
 q=str(input("\033[1;33;40mEnter your dork: "))
 no=int(input("\033[1;33;40mEnter the number of results you want to search: "))
